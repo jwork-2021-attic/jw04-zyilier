@@ -38,4 +38,10 @@ public class BubbleSorter<T extends Comparable<T>> implements Sorter<T> {
         return this.plan;
     }
 
+    @Override
+    public void load(T[][] elements) {
+        // TODO Auto-generated method stub
+        
+    }
+
 }
